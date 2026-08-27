@@ -1,15 +1,15 @@
-# AppDeClimaEmJS
+ AppDeClimaEmJS
 
 Aplicativo de terminal em Node.js que consulta o clima atual de qualquer cidade do mundo.
 
-## Como funciona
+# Como funciona
 
 1. O usuário digita o nome de uma cidade
 2. O programa busca as coordenadas (latitude/longitude) via geocoding
 3. Usa essas coordenadas para buscar o clima atual
 4. Exibe temperatura, vento e condição do tempo traduzida para português
 
-## Tecnologias
+# Tecnologias
 
 - Node.js
 - `fetch` nativo (sem dependências externas)
@@ -18,9 +18,9 @@ Aplicativo de terminal em Node.js que consulta o clima atual de qualquer cidade 
 
 ## Como rodar
 
-\`\`\`bash
+\`\`bash
 node appClima.js
-\`\`\`
+\`\`
 
 Digite o nome de uma cidade quando solicitado.
 
